@@ -1,0 +1,17 @@
+<mat-card *ngFor="let tutorial of tutorials" class="tutorial-card mat-elevation-z10">
+
+    <mat-card-header>
+        <mat-card-title>{{tutorial.description}}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <p>{{tutorial.description}}</p>
+    </mat-card-content>
+
+    <mat-card-actions class="tutorial-actions">
+        <button mat-button class="mat-raised-button mat-primary">
+            VIEW TUTORIALS
+        </button>
+    </mat-card-actions>
+
+</mat-card>
